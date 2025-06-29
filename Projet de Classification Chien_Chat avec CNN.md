@@ -4,7 +4,7 @@ Ce projet implémente un réseau de neurones convolutif (CNN) pour classer des i
 
 ## Structure du Projet
 
-Le projet est principalement contenu dans un notebook Jupyter (ou un script Python dérivé) qui effectue les étapes suivantes :
+Le projet est principalement contenu dans un notebook Jupyter qui effectue les étapes suivantes :
 
 1.  **Préparation des Données** : Utilisation de `ImageDataGenerator` pour le prétraitement et l'augmentation des images.
 2.  **Chargement des Données** : Les images sont chargées à partir de répertoires spécifiés (entraînement, validation, test).
@@ -23,27 +23,12 @@ Pour exécuter ce projet, vous aurez besoin des bibliothèques Python suivantes 
 -   `matplotlib`
 -   `numpy` (généralement inclus avec TensorFlow/Keras)
 
-### Configuration de l'Environnement
-
-Il est recommandé d'utiliser un environnement virtuel pour gérer les dépendances. Vous pouvez créer et activer un environnement virtuel comme suit :
-
-```bash
-python3 -m venv env
-source env/bin/activate
-```
-
-Installez les dépendances requises :
-
-```bash
-pip install tensorflow matplotlib
-```
-
 ### Structure des Données
 
 Le projet suppose que vos données d'image sont organisées dans la structure de répertoires suivante :
 
 ```
-/path/to/your/dataset/
+data
 ├── train/
 │   ├── dogs/
 │   └── cats/
@@ -62,13 +47,9 @@ Assurez-vous que les chemins `train_path`, `validation_path` et `test_path` dans
 1.  **Téléchargez le code** : Obtenez le fichier `dog_cat_CNN_commented.py` (ou le notebook original `dog_cat_CNN.ipynb`).
 2.  **Préparez votre jeu de données** : Organisez vos images de chiens et de chats dans la structure de répertoires spécifiée ci-dessus.
 3.  **Mettez à jour les chemins d'accès aux données** : Modifiez les variables `train_path`, `validation_path` et `test_path` dans le script pour qu'elles correspondent à l'emplacement de votre jeu de données.
-4.  **Exécutez le script** :
-    ```bash
-    python dog_cat_CNN_commented.py
-    ```
-    Si vous utilisez le notebook Jupyter, ouvrez-le et exécutez les cellules séquentiellement.
-##Exécution
-pour exécuter le code, appuyer sur:
+
+## Exécution
+pour exécuter le code, il suffit  simplement d'appuyer sur:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZoubirCHATTI/cat_dog-classification/main?filepath=notebook/dog_cat_CNN.ipynb)
 
 ## Résultats
@@ -77,6 +58,6 @@ Le script affichera la précision d'entraînement et de validation à la fin de 
 
 ## Auteur
 
-[Votre Nom/Organisation]
+[Zoubir CHATTI]
 
 
