@@ -67,6 +67,9 @@ Assurez-vous que les chemins `train_path`, `validation_path` et `test_path` dans
     python dog_cat_CNN_commented.py
     ```
     Si vous utilisez le notebook Jupyter, ouvrez-le et exécutez les cellules séquentiellement.
+##Exécution
+pour exécuter le code, appuyer sur:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZoubirCHATTI/cat_dog-classification/main?filepath=notebook/dog_cat_CNN.ipynb)
 
 ## Résultats
 
